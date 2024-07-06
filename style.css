@@ -93,4 +93,8 @@ header span {
     height: 100%;
     border-radius: 15px;
     border: 5px solid rgb(30, 255, 0);
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-drag: none;
+    user-select: none;
 }
