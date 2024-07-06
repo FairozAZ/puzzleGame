@@ -24,7 +24,7 @@ let countTime = () => {
 
 // matching images & winning message
 function checkWin () {
-    const allImg = document.querySelectorAll('img');
+    const allImg = document.querySelectorAll('.img-container img');
     let adjustImg = allImg[0].src.includes('slice1')
         && allImg[1].src.includes('slice2') && allImg[2].src.includes('slice3')
         && allImg[3].src.includes('slice4') && allImg[4].src.includes('slice5') 
